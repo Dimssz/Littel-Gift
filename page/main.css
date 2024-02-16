@@ -1,0 +1,119 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 921px){
+body{
+    background-color:#F2BBD5;
+    height: max-content;
+}
+.main-box{
+    background-color: #F6F2E7;
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+}
+.main-box p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 52px;
+    text-align: center;
+    margin-left: 30px;
+}
+.image1{
+    margin-left: 20px;
+}
+.image1 img{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+hr {
+    border-top: 10px dashed ;
+    color: #F294B6;
+    height: 1px;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+.main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.moon{
+    position: absolute;
+    width: 500px;
+    rotate: 300deg;
+    z-index: 1;
+    margin-top: -10%;
+    margin-right: -30%;
+    opacity: 0.6;
+}
+
+.main-text-section1{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.main-text-section1 p{
+    font-size: 52px;
+    color: rgb(26, 26, 26);
+}
+.main-text-section1 img{
+opacity: 1;
+width: 100px;
+height: 100%;
+}
+.mySlides2{
+    border-radius: 10px;
+}
+
+.mySlides3 img{
+    height: 100%;
+}
+
+.image-section1{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.section-1 img{
+    border-radius: 10px;
+}
+.image-section2 img{
+    border-radius: 10px;
+}
+
+.section-2{
+    width: 90%;
+    margin: auto;
+    
+}
+.container-section2{
+    display: flex;
+    justify-content: space-around;
+    font-size: 52px;
+}
+.section-4{
+    width: 90%;
+    margin: auto;
+    background-color: #F6F2E7;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+}
